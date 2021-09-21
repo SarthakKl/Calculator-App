@@ -1,0 +1,32 @@
+Concepts
+
+1)I have used the stack data structure and the concept of infix to postfix conversion to do the arithmetic operation following the rule of precedence.
+
+2) .append()- It is a method of a TextView and is used to add/append text in the TextView.
+
+   E.g.-> result.append("Some String")
+
+3) .contains()- Check if there exists the literals between the () in a given TextView.
+
+   E.g.-> result.contains("*")-> returns true if the textView
+	  			contains * in it.
+
+4) .split()- splits the charSequence to a list of strings aroung occurences of specified delimiters.
+It returns List<Strings>
+
+E.g-> result="1/2"
+      val splitVal=result.split("/")  //  "/" is a delimiter
+      print(splitVal[0])              // "1"
+      print(splitVal[1])              // "2"
+ we can we have more than one delimiter separated by commas.
+      val splitVal=result.split("/","+",........nthDelimiter)
+
+5) .substring()- 
+	syntax
+		(a) SomeString.substring(start Index)  // It gives the string from the start index to 								//ending of the main string.
+		
+		(b) SomeString.substring(startIndex,EndIndex)  // give substring from 							       // [startIndex,endIndex)
+
+NOTE-> I don't know if above methods will work with another views or not.
+
+      
